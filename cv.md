@@ -13,13 +13,19 @@
 
 	I'm 24 years old, married, have a child. I've got an incomplete higher philological education in BSU.
 
-	I was a full-time student, later transferred to part-time, but at the end of the second year picked up the documents, because the priority was money and self-sufficiency.
+	I was a full-time student, later transferred to part-time, but at the end of the second year
+	picked up the documents, because the priority was money and self-sufficiency.
 
-	Love of literature and professional interests diverged, that's why I improved my knowledge as a bartender-barista, completed professional courses, changed several jobs.
+	Love of literature and professional interests diverged, that's why I improved my knowledge
+	as a bartender-barista, completed professional courses, changed several jobs.
 
-	In general, before maternity leave, I've been working in the catering industry for a period of six years (starting in 2010) in various positions, from the seller to the coffee-coach of the coffee shop franchising network.
+	In general, before maternity leave, I've been working in the catering industry for a period 
+	of six years (starting in 2010) in various positions, from the seller to the coffee-coach 
+	of the coffee shop franchising network.
 
-	I change my job because I want to work on something durable and important. I want to learn, grow and enjoy what I do. Possibilities of creating new things inspire me. This is a challenge to myself and my abilities.
+	I change my job because I want to work on something durable and important. I want to learn,
+	grow and enjoy what I do. Possibilities of creating new things inspire me.
+	This is a challenge to myself and my abilities.
 
 ###4. Skills:
 
@@ -39,4 +45,5 @@
 
 ###8. English level:
 
-	I study English since October 2018. I am engaged with a tutor once a week and perform many independent tasks. I'm going to prepare for KET.
+	I study English since October 2018. I am engaged with a tutor once a week 
+	and perform many independent tasks. I'm going to prepare for KET.
