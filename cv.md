@@ -7,7 +7,7 @@
 	phone: +37525 7470438
 	e-mail: grenzentur@rambler.ru
 	telegram: grenzentur
-	[GIT:](https://github.com/Grenzen)
+	[GIT]:(https://github.com/Grenzen)
 
 ###3. Summary:
 
@@ -31,13 +31,13 @@
 
 	Basic knowledge C and JS/HTML/CSS.
 
-###5. Examples of the latest written codes can be seen [here:](https://github.com/Grenzen).
+###5. Examples of the latest written codes can be seen [here]:(https://github.com/Grenzen).
 
 ###6. Experience: 
 
-	* Some free courses at [Hexlet (unfortunately, code review is not available)](https://ru.hexlet.io/u/user-9d153c0fd9146d51);
+	* Some free courses at [Hexlet]:(https://ru.hexlet.io/u/user-9d153c0fd9146d51);
 	* cs50 (with tasks, in the process) at JavaRush;
-	* HTML&CSS Basics at (codecademy)[https://www.codecademy.com/Grenzentur].
+	* HTML&CSS Basics at [codecadem]:(https://www.codecademy.com/Grenzentur).
 
 ###7. Education:
 
