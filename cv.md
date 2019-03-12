@@ -41,6 +41,7 @@
 
 ### 7. Education:
 
+	I have an incomplete higher philological education.
 	I've got a bartender category and certificate splash&dash school (these are official papers).
 
 ### 8. English level:

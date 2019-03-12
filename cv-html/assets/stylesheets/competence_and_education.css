@@ -1,0 +1,22 @@
+/* competence and education sections */
+
+.competence,
+.education {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5%;
+  margin-bottom: -1%;
+}
+
+.experience a {
+  line-height: 2em;
+}
+
+.experience p {
+  margin-top: 0px;
+}
+
+.english {
+  padding-left: 240px;
+}
