@@ -1,0 +1,83 @@
+@import "../stylesheets/default.css";
+@import "../stylesheets/nav.css";
+@import "../stylesheets/fonts.css";
+@import "../stylesheets/about.css";
+
+@import "../icons/css/animation.css";
+@import "../icons/css/fontello-codes.css";
+@import "../icons/css/fontello-embedded.css";
+@import "../icons/css/fontello-ie7-codes.css";
+@import "../icons/css/fontello-ie7.css";
+@import "../icons/css/fontello.css";
+
+body {
+  width: 1024px;
+  min-width: 512px;
+  background-image: url('../image/videoblocks-gray-technology-background-with-binary-codes-and-hexagons_bk0payk6x_thumbnail-full01.png');
+  background-repeat: repeat-y;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  line-height: 1.6em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+.contacts a,
+.experience a {
+  text-decoration: none;
+}
+
+main,
+footer {
+  width: 80%;
+  margin-top: 5%;
+  margin: 0% 10%;
+  z-index: 10;
+  background-color: rgba(9, 9, 10, 0.71);
+  color: rgba(236, 236, 236, 0.8);
+}
+
+.competence,
+.education {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.experience a,
+.contacts > ul > li > a {
+  color: #ff8b339a;
+}
+
+.contacts > ul > li > a:hover,
+.experience a:hover,
+.nav > ul > li > a:hover {
+  color: azure;
+}
+
+footer {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts {
+  margin: 3em;
+  display: flex;
+}
+
+.contacts ul {
+  display: flex;
+  flex-direction: row;
+}
+
+
+

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: url('../fonts/Muli/Muli-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../icons/font/fontello.svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav > ul > li > a,
+h1,
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #ff6f01;
+  font-weight: 900;
+}
+
+.introduction p,
+.summary p,
+.skills p,
+.experience a,
+.experience p,
+.official p,
+.english p,
+.contacts > ul > li > a {
+  font-family: 'Muli', sans-serif;
+}
