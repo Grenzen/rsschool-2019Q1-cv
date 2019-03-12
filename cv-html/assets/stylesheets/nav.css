@@ -51,7 +51,7 @@
 }
 
 .nav-toggle:after {
-  content: '\1F785';
+  content: '\25FB';
   text-decoration: none;
 }
 
@@ -127,6 +127,12 @@ a:-webkit-any-link {
   transition: color .5s ease, padding .5s ease;
 }
 
+.nav > ul > li > a:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .nav > ul > li > a:after {
   content: '';
   display: block;
@@ -140,12 +146,11 @@ a:-webkit-any-link {
   transition: width .5s ease;
 }
 
-/*переместить эту часть в main*/
-
-[id='nav-toggle']:checked ~ main > article {
-  -webkit-transform: translateX(200px);
-  -moz-transform: translateX(200px);
-  transform: translateX(200px);
+[id='nav-toggle']:checked ~ main,
+[id='nav-toggle']:checked ~ footer {
+  -webkit-transform: translateX(98px);
+  -moz-transform: translateX(98px);
+  transform: translateX(98px);
 }
 
 article {
