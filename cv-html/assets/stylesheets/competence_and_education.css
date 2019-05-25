@@ -1,22 +1,45 @@
 /* competence and education sections */
 
-.competence,
-.education {
+.wrap_items {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 5%;
-  margin-bottom: -1%;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin: 2.5%;
 }
 
-.experience a {
-  line-height: 2em;
+.items {
+  width: 100%;
+  margin: 2.5% 0;
+  padding-bottom: 1%;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: center;
+  border-bottom: .4rem dotted rgba(138, 59, 6, 0.61);
 }
 
-.experience p {
-  margin-top: 0px;
+.items p > span {
+  font-size: 1rem;
 }
 
-.english {
-  padding-left: 240px;
+.items > a {
+  margin: 1rem;
+  opacity: .8;
+}
+
+@media screen and (min-device-width: 700px) {
+  
+  .wrap_items {
+    justify-content: space-around;
+  }
+
+  .items {
+    width: 40%;
+  }
+
+  .items a {
+    font-size: 1.5rem;
+  }
 }

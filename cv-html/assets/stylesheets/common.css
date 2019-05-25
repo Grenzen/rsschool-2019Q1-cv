@@ -1,51 +1,51 @@
 body {
-  width: 1024px;
-  min-width: 512px;
+  margin: 5% 3%;
   background-image: url('../image/videoblocks-gray-technology-background-with-binary-codes-and-hexagons_bk0payk6x_thumbnail-full01.png');
-  background-repeat: repeat-y;
+  background-size: cover;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 main,
 footer {
-  width: 93%;
-  margin-top: 5%;
-  margin: 0% 10%;
   z-index: 10;
   background-color: rgba(9, 9, 10, 0.71);
-  color: rgba(236, 236, 236, 0.8);
+  color: rgb(236, 236, 236);
 }
 
+nav,
+main,
 footer {
-  height: 145px;
+  max-width: 1300px;
 }
 
-p {
-  line-height: 1.6em;
-  margin-top: 1.2em;
-  margin-bottom: 1.2em;
+* p {
+  line-height: 1.6rem;
+  font-size: 1.5rem;
+  margin: 2.5% 0;
 }
 
-h3 {
-  font-size: 1em;
+* h3 {
+  font-size: 2rem;
 }
 
-.contacts a,
-.experience a {
+.items a,
+.contacts a {
   text-decoration: none;
 }
 
-.experience a,
-.contacts > ul > li > a {
-  color: #ff8b339a;
-}
-
 .contacts > ul > li > a:hover,
-.experience a:hover,
+.items a:hover,
 .nav > ul > li > a:hover {
   color: azure;
   -webkit-transition: color .5s ease, padding .5s ease;
   -moz-transition: color .5s ease, padding .5s ease;
   transition: color .5s ease, padding .5s ease;
+}
+
+@media screen and (min-device-width: 700px) {
+  body {
+    margin: 0% 3% 3% 3%;
+  }
 }

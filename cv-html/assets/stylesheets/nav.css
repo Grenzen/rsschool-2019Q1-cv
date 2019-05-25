@@ -8,14 +8,14 @@
 }
 
 .nav {
-  width: 200px;
-  min-width: 200px;
+  width: 70%;
+  min-width: 12.5rem;
   height: 100%;
   position: fixed;
   top: 0;
   bottom: 0;
   margin: 0;
-  left: -320px;
+  left: -65%;
   padding: 15px 20px;
   -webkit-transition: left 0.3s;
   -moz-transition: left 0.3s;
@@ -26,8 +26,8 @@
 
 .nav-toggle {
   position: absolute;
-  left: 320px;
-  top: 1em;
+  left: 95%;
+  top: 1.5rem;
   padding: 0.5em;
   background: inherit;
   color: #ff6f01;
@@ -53,6 +53,8 @@
 .nav-toggle:after {
   content: '\25FB';
   text-decoration: none;
+  font-weight: bold;
+  font-size: 5rem;
 }
 
 .nav > ul {
@@ -118,8 +120,9 @@ a:-webkit-any-link {
   display: inline-block;
   position: relative;
   padding: 0;
-  font-weight: 300;
-  font-size: 1.2em;
+  font-size: 4rem;
+  text-align: center;
+
   width: 100%;
   text-decoration: none;
   -webkit-transition: color .5s ease, padding .5s ease;
@@ -159,4 +162,40 @@ article {
   -webkit-transition: -webkit-transform .3s;
   -moz-transition: -moz-transform .3s;
   transition: transform .3s;
+}
+
+@media screen and (min-device-width: 700px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    /* left: 0; */
+    position: static;
+    height: 0%;
+    width: 97%;
+  }
+
+  .nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .nav > ul > li {
+    opacity: .8;
+
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  .nav > ul > li > a {
+    font-size: 1.5rem;
+  }
+
+  .nav > ul > li > a:after {
+    background: none;
+  }
 }
