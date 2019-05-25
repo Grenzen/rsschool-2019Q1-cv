@@ -36,9 +36,9 @@
   min-width: 27.5rem;
   min-height: 27.5rem;
 
-  background-image: url('/cv-html/assets/foto/IMG_2467.JPG');
+  background-image: url('/cv-html/assets/foto/foto.jpg');
   background-size: cover;
-  background-position-x: center;
+  background-position: center 30%;
 
   border: 1px solid #ff6f01;
 }
