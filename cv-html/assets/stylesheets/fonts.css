@@ -27,13 +27,7 @@ h3 {
   font-weight: 900;
 }
 
-.introduction p,
-.summary p,
-.skills p,
-.experience a,
-.experience p,
-.official p,
-.english p,
-.contacts > ul > li > a {
+* p,
+.items > a {
   font-family: 'Muli', sans-serif;
 }
