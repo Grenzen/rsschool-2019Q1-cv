@@ -51,7 +51,7 @@
 }
 
 .nav-toggle:after {
-  content: '\25FB';
+  content: '\2630';
   text-decoration: none;
   font-weight: bold;
   font-size: 5rem;
