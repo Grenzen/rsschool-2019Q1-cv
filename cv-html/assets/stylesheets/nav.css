@@ -51,7 +51,7 @@
 }
 
 .nav-toggle:after {
-  content: '\25FB';
+  content: '\2630';
   text-decoration: none;
   font-weight: bold;
   font-size: 5rem;
@@ -170,10 +170,9 @@ article {
   }
 
   .nav {
-    /* left: 0; */
     position: static;
     height: 0%;
-    width: 97%;
+    width: 100%;
   }
 
   .nav > ul {
