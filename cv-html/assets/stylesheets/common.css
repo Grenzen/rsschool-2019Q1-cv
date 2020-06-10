@@ -10,14 +10,15 @@ body {
 main,
 footer {
   z-index: 10;
-  background-color: rgba(9, 9, 10, 0.71);
+  background-color: rgba(9, 9, 10, 0.2);
   color: rgb(236, 236, 236);
 }
 
 nav,
 main,
 footer {
-  max-width: 1024px;
+  max-width: 800px;
+  /* width: 90%; */
 }
 
 * p {
