@@ -16,34 +16,30 @@
 }
 
 .introduction p {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .name {
-  font-size: 2rem;
-  margin-top: 1rem;
+  font-size: 3rem;
+  margin-top: 2rem;
 }
 
 .foto {
   margin: 3em;
   border-radius: 50%;
 
-  width: 50%;
-  height: 50%; 
-  min-width: 22.5rem;
-  min-height: 22.5rem;
+  width: 24.5rem;
+  height: 24.5rem;
 
-  background-image: url('../foto/foto.jpg');
+  background-image: url('../foto/photo.jpeg');
   background-size: cover;
-  background-position: center 30%;
+  background-position: 30px center;
 
-  border: 1px solid #ff6f01;
+  border: 1px solid #d0d5f1;
 }
 
 .summary {
   margin: 3em 0;
-  justify-content: center;
-  align-items: center;
   display: flex;
   flex-direction: column;
 }
@@ -63,12 +59,8 @@
   }
 
   .foto {
-    width: 20.5rem;
+    width: 43.5rem;
     height: 20.5rem;
-  }
-
-  .summary p {
-    text-align: center;
   }
 
   .name {

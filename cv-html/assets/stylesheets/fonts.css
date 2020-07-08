@@ -21,13 +21,17 @@
 
 .nav > ul > li > a,
 h1,
-h3 {
+h3,
+h4 {
   font-family: 'Roboto', sans-serif;
-  color: #ff6f01;
+  color: #d0d5f1;
   font-weight: 900;
 }
 
 * p,
-.items > a {
+.li,
+.items > a,
+.project li,
+.project a {
   font-family: 'Muli', sans-serif;
 }

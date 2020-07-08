@@ -30,7 +30,7 @@
   top: 1.5rem;
   padding: 0.5em;
   background: inherit;
-  color: #ff6f01;
+  color: #d1cac5;
   cursor: default;
   font-size: 1.2em;
   line-height: 1;
@@ -96,12 +96,6 @@
 li {
   display: list-item;
   text-align: -webkit-match-parent;
-}
-
-a:-webkit-any-link {
-  color: -webkit-link;
-  cursor: default;
-  text-decoration: underline;
 }
 
 .nav > ul > li > a:before {

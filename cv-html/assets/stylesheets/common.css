@@ -1,7 +1,6 @@
 body {
   margin: 5% 3%;
-  background-image: url('../image/videoblocks-gray-technology-background-with-binary-codes-and-hexagons_bk0payk6x_thumbnail-full01.png');
-  background-size: cover;
+  background-image: url('../image/bricks.jpg');
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,32 +9,51 @@ body {
 main,
 footer {
   z-index: 10;
-  background-color: rgba(9, 9, 10, 0.2);
-  color: rgb(236, 236, 236);
+  background-color: #0f0f1be0;
+  color: #d8d8d8;
 }
 
 nav,
 main,
 footer {
+  min-width: 520px;
   max-width: 800px;
-  /* width: 90%; */
 }
 
-* p {
+* a {
+  cursor: pointer;
+}
+
+* p,
+.li {
   line-height: 1.6rem;
   font-size: 1.5rem;
   margin: 1rem;
 }
 
-* h3 {
-  font-size: 2rem;
+.li > span {
+  color: #b0f7ff;
+}
+
+* h3,
+* h4 {
   text-align: center;
   margin: 1rem;
+}
+
+* h3 {
+  font-size: 2rem;
+}
+
+* h4 {
+  font-size: 1.5rem;
+  color: #b0f7ff;
 }
 
 .items a,
 .contacts a {
   text-decoration: none;
+  color: #00ceff;
 }
 
 .contacts > ul > li > a:hover,
@@ -49,6 +67,6 @@ footer {
 
 @media screen and (min-device-width: 700px) {
   body {
-    margin: 0% 3% 3% 3%;
+    margin: 3%;
   }
 }
