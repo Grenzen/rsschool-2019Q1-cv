@@ -167,13 +167,7 @@
         <div class="items">
           <h3>About me:</h3>
           <p> 
-            My name is Rita, I'm 
-            <?php 
-              $age = DateTime::createFromFormat('d/m/Y', '06/10/1994')
-                  ->diff(new DateTime('now'))
-                  ->y;
-              echo $age;
-             ?>. I study programming, 
+            My name is Rita, I'm <span id="myAge"></span>. I study programming, 
             because I like it. I'm interested in solving problems, 
             learning new things and I want to improve my skills. 
             I watch video courses, read development articles and 
@@ -213,6 +207,16 @@
         </ul>
       </section>
     </footer>
+
+    <script> 
+      function myAge() {
+        let birth = '1994-10-06';
+        let myAge = document.getElementById('myAge');
+        myAge.innerText = ((new Date().getTime() - new Date(birth)) / (24 * 3600 * 365.25 * 1000)) | 0;
+        // console.log(myAge.innerText);
+      }
+      myAge();
+    </script>
   </body>
 
 </html>
