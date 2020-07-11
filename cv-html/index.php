@@ -167,7 +167,13 @@
         <div class="items">
           <h3>About me:</h3>
           <p> 
-            My name is Rita, I'm 25. I study programming, 
+            My name is Rita, I'm 
+            <?php 
+              $age = DateTime::createFromFormat('d/m/Y', '06/10/1994')
+                  ->diff(new DateTime('now'))
+                  ->y;
+              echo $age;
+             ?>. I study programming, 
             because I like it. I'm interested in solving problems, 
             learning new things and I want to improve my skills. 
             I watch video courses, read development articles and 
