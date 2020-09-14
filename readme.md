@@ -1,3 +1,3 @@
-# rsschool-2019Q1-cv
+# rsschool-cv
 
-https://grenzen.github.io/rsschool-2019Q1-cv/cv-html
+https://grenzen.github.io/rsschool-cv
