@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://grenzen.github.io/rsschool-cv/cv-html
+https://grenzen.github.io/rsschool-cv
