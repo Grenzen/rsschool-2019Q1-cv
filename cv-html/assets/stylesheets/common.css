@@ -1,0 +1,77 @@
+body {
+  margin: 5% 3%;
+  background-image: url('../image/bricks.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main,
+footer {
+  z-index: 10;
+  background-color: #0f0f1be0;
+  color: #d8d8d8;
+}
+
+nav,
+main,
+footer {
+  min-width: 520px;
+  max-width: 800px;
+}
+
+* a {
+  cursor: pointer;
+}
+
+* p,
+.li,
+.about p > span {
+  line-height: 1.6rem;
+  font-size: 1.5rem;
+}
+
+* p,
+.li {
+  margin: 1rem;
+}
+
+.li > span {
+  color: #b0f7ff;
+}
+
+* h3,
+* h4 {
+  text-align: center;
+  margin: 1rem;
+}
+
+* h3 {
+  font-size: 2rem;
+}
+
+* h4 {
+  font-size: 1.5rem;
+  color: #b0f7ff;
+}
+
+.items a,
+.contacts a {
+  text-decoration: none;
+  color: #00ceff;
+}
+
+.contacts > ul > li > a:hover,
+.items a:hover,
+.nav > ul > li > a:hover {
+  color: azure;
+  -webkit-transition: color .5s ease, padding .5s ease;
+  -moz-transition: color .5s ease, padding .5s ease;
+  transition: color .5s ease, padding .5s ease;
+}
+
+@media screen and (min-device-width: 700px) {
+  body {
+    margin: 3%;
+  }
+}

@@ -1,0 +1,69 @@
+
+.wrap_intro,
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrap_intro {
+  width: 100%;
+  justify-content: center;
+}
+
+.introduction {
+  width: 100%;
+}
+
+.introduction p {
+  font-size: 1.5rem;
+}
+
+.name {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.foto {
+  margin: 3em;
+  border-radius: 50%;
+
+  width: 24.5rem;
+  height: 24.5rem;
+
+  background-image: url('../foto/photo.jpeg');
+  background-size: cover;
+  background-position: 30px center;
+
+  border: 1px solid #d0d5f1;
+}
+
+.summary {
+  margin: 3em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 700px) and (min-device-width: 700px) {
+  .wrap_intro {
+    flex-direction: row;
+  } 
+
+  .introduction {
+    text-align: center;
+  }
+
+  .introduction p {
+    line-height: 1.8rem;
+    font-size: 2rem;
+  }
+
+  .foto {
+    width: 43.5rem;
+    height: 20.5rem;
+  }
+
+  .name {
+    font-size: 4rem;
+  }
+}

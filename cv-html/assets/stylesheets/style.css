@@ -1,0 +1,14 @@
+@import "../stylesheets/default.css";
+@import "../stylesheets/nav.css";
+@import "../stylesheets/fonts.css";
+@import "../stylesheets/about.css";
+@import "../stylesheets/competence_and_education.css";
+@import "../stylesheets/common.css";
+@import "../stylesheets/contacts.css";
+
+@import "../icons/css/animation.css";
+@import "../icons/css/fontello-codes.css";
+@import "../icons/css/fontello-embedded.css";
+@import "../icons/css/fontello-ie7-codes.css";
+@import "../icons/css/fontello-ie7.css";
+@import "../icons/css/fontello.css";
