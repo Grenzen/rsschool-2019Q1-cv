@@ -31,9 +31,9 @@
   width: 24.5rem;
   height: 24.5rem;
 
-  background-image: url('../foto/photo.jpeg');
+  background-image: url('../foto/photo2.jpg');
   background-size: cover;
-  background-position: 30px center;
+  background-position: center;
 
   border: 1px solid #d0d5f1;
 }
