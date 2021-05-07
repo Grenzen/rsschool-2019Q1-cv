@@ -6,6 +6,10 @@ body {
   align-items: center;
 }
 
+:focus {
+  outline: none;
+}
+
 main,
 footer {
   z-index: 10;
@@ -56,6 +60,7 @@ footer {
 }
 
 .items a,
+.items details,
 .contacts a {
   text-decoration: none;
   color: #00ceff;
